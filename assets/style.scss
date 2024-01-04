@@ -1,0 +1,14 @@
+span {
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0.66, 0.03, 0.94, 0.18);
+}
+.visible{
+    opacity : 1;
+}
+#minute{
+    opacity: 0;
+    transition: opacity 0.5s cubic-bezier(0, 0, 1, -0.39)
+}
+.transition{
+    opacity: 1 !important;
+}
